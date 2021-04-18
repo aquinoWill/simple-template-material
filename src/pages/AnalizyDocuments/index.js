@@ -23,10 +23,10 @@ export const AnalizyDocuments = () => {
 
   return (
     <Grid container spacing={2}>
-      <Grid item lg={12} sm={12} xs={12}>
+      <Grid item xs={12}>
         <Typography variant='h4'>Analisar documentos</Typography>
       </Grid>
-      <Grid item lg={12} sm={12} xs={12}>
+      <Grid item xs={12}>
         <Formik
           initialValues={{
             date: ''
@@ -45,7 +45,7 @@ export const AnalizyDocuments = () => {
           {({ field, errors, touched }) => (
             <Form>
               <Grid container spacing={2}>
-                <Grid item lg={12} sm={2} xs={2}>
+                <Grid item lg={2} sm={2} xs={2}>
                   <Field
                     {...field}
                     fullWidth
@@ -59,7 +59,7 @@ export const AnalizyDocuments = () => {
                   />
                 </Grid>
 
-                <Grid item lg={12} sm={2} xs={2}>
+                <Grid item lg={2} sm={2} xs={2}>
                   <Button type='submit' fullWidth variant='contained' color='primary'>
                     Buscar
                   </Button>
