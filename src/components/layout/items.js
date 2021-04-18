@@ -1,7 +1,7 @@
 import React from 'react'
 import DashboardIcon from '@material-ui/icons/Dashboard'
+import ImageSearchIcon from '@material-ui/icons/ImageSearch'
 import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt'
-import ImageIcon from '@material-ui/icons/Image'
 
 export const Items = [
   {
@@ -10,13 +10,13 @@ export const Items = [
     icon: <DashboardIcon />
   },
   {
-    text: 'Download de Images',
+    text: 'Incluir documento',
     link: '/upload-images',
     icon: <SystemUpdateAltIcon />
   },
   {
-    text: 'Lista de imagens',
+    text: 'Analisar',
     link: '/list-images',
-    icon: <ImageIcon />
+    icon: <ImageSearchIcon />
   }
 ]

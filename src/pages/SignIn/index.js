@@ -20,7 +20,7 @@ const Copyright = () => (
 )
 
 export const SignIn = () => {
-  const { paper, avatar, submit } = signInStyled()
+  const { paper, avatar } = signInStyled()
 
   return (
     <Container component='main' maxWidth='xs'>
@@ -72,7 +72,7 @@ export const SignIn = () => {
               />
               <CustomCheckbox name='remember' label='Lembrar-me' setFieldValue={setFieldValue} />
 
-              <Button type='submit' fullWidth variant='contained' color='primary' className={submit}>
+              <Button type='submit' fullWidth variant='contained' color='primary'>
                 Sign In
               </Button>
               <Grid container>

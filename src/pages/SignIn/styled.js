@@ -10,9 +10,6 @@ const signInStyled = makeStyles(theme => ({
   avatar: {
     margin: theme.spacing(1),
     backgroundColor: theme.palette.secondary.main
-  },
-  submit: {
-    margin: theme.spacing(3, 0, 2)
   }
 }))
 

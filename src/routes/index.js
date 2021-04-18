@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-import { SignIn, Dashboard, FormsExample } from 'pages'
+import { SignIn, Dashboard, FormsExample, InsertDocument } from 'pages'
 import Layout from 'components/layout'
 
 // import { PrivateRoute } from './privateRoute'
@@ -12,6 +12,7 @@ export const Routes = () => (
         <Route path='/signin' component={SignIn} />
         <Route path={'/dashboard'} component={Dashboard} />
         <Route path={'/forms-examples'} component={FormsExample} />
+        <Route path={'/upload-images'} component={InsertDocument} />
         <Route
           path='*'
           render={({ location }) => (
