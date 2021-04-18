@@ -16,7 +16,7 @@ export const Items = [
   },
   {
     text: 'Analisar',
-    link: '/list-images',
+    link: '/analizy-documents',
     icon: <ImageSearchIcon />
   }
 ]
